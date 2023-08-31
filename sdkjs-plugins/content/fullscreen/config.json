@@ -1,10 +1,10 @@
 {
-  "name"       : "hello world",
-  "guid"       : "asc.{b2a07ab8-5ca0-408e-b075-9f2ec9e95a04}",
+  "name"       : "fullScreen",
+  "guid"       : "asc.{d7c15ca2-69c5-4924-8b21-91c54e20c1fb}",
   "baseUrl"    : "",
   "variations" : [
       {
-          "description"         : "hello world",
+          "description"         : "fullScreen",
           "url"                 : "index.html",
           "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
           "isViewer"            : true,

@@ -66,25 +66,11 @@
             }
             default:
                 break;
-        }
-
-       
+        }     
         
-        window.parent.Common.Gateway.on('internalcommand', function(data){
-            console.log(data.command); // 接受到123参数
-            console.log(data.data); // 接受到321参数
-            Asc.scope.text =data.data;
-            window.Asc.plugin.callCommand(function(){
-                console.log(1);
-                globalThis.self.top.postMessage('helloooo' ,'http://localhost:8080/sysware');
-            },false);     
-        });
+       
     };
 
-    function filling(){
-		//here is something code
-        console .log( "事件：onHello" );
-    };
 
     window.Asc.plugin.button = function(id)
     {
